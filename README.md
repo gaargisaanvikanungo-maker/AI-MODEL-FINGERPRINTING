@@ -10,10 +10,9 @@ A machine learning system that classifies text as written by **GPT-4o, Claude 3.
 
 | Metric | Score |
 |--------|-------|
-| Classifier Accuracy | **XX%** |
-| Post-Paraphrase Attack | **XX%** |
-| Post-Style-Transfer Attack | **XX%** |
-
+| Classifier Accuracy | **97%** |
+| Post-Paraphrase Attack | **44%** |
+| Post-Style-Transfer Attack | **29%** |
 ---
 
 ## 🛠️ How It Works
@@ -73,8 +72,8 @@ streamlit run app/app.py
 ## 📊 Visualizations
 
 ![Confusion Matrix](models/confusion_matrix_percent.png)
-![SHAP Importance](models/shap_overall_importance.png)
-
+![SHAP Overall](models/shap_overall_importance.png)
+![SHAP Per Model](models/shap_per_model.png)
 ---
 
 Built as part of AIML Club Monthly Project Challenge.
