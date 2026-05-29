@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Environment variables (NEVER commit API keys)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+
+# Large files
+*.pkl
+data/paraphrased_samples.csv
+data/style_transfer_samples.csv
+
+# OS
+.DS_Store
+Thumbs.db

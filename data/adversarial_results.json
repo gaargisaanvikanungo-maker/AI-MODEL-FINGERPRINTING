@@ -1,0 +1,7 @@
+{
+  "original_accuracy": 97.0,
+  "post_paraphrase_accuracy": 44.0,
+  "post_style_transfer_accuracy": 29.0,
+  "paraphrase_drop": 53.0,
+  "style_transfer_drop": 65.0
+}
